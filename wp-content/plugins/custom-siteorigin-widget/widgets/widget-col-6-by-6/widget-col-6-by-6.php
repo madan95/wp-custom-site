@@ -1,12 +1,13 @@
 <?php
 
 /*
- * Widget Name: Widget Full Page Header
+ * Widget Name: Col-6-by-6
  * Description: Widget to create full page image
  * Author: Madan
  */
 
-class Widget_Full_Page_Header extends SiteOrigin_Widget{
+class Widget_Col_6_By_6 extends SiteOrigin_Widget{
+
 
     function get_template_name($instance)
     {
@@ -20,4 +21,4 @@ class Widget_Full_Page_Header extends SiteOrigin_Widget{
 
 }
 
-siteorigin_widget_register('widget-full-page-header', __FILE__, 'Widget_Full_Page_Header');
+siteorigin_widget_register('widget-col-6-by-6', __FILE__, 'Widget_Col_6_By_6');

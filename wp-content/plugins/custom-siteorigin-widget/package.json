@@ -1,0 +1,11 @@
+{
+  "name": "custom-siteorigin-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watchless": "sudo less-watch-compiler ./ ./"
+  },
+  "author": "",
+  "license": "ISC"
+}
