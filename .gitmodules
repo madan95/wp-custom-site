@@ -1,0 +1,3 @@
+[submodule "wp-content/plugins/wp-siteorigin-widgets"]
+	path = wp-content/plugins/wp-siteorigin-widgets
+	url = git@github.com:madan95/wp-siteorigin-widgets.git
