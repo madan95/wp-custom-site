@@ -257,10 +257,7 @@ class Widget_Full_Page_Header extends SiteOrigin_Widget{
     function get_template_dir($instance) {
         return 'full-page-templates';
     }
-    function get_style_name($instance)
-    {
-        return 'full-page-style';
-    }
+
 }
 
 siteorigin_widget_register('full-page-header-widget', __FILE__, 'Widget_Full_Page_Header');
